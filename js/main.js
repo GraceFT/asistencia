@@ -1,8 +1,8 @@
-FB.getLoginStatus(function(response) {
+/*FB.getLoginStatus(function(response) {
     statusChangeCallback(response);
 });
-
-$(function() {
+*/
+/*$(function() {
 
 	var app_id = '112578705929050';
 	var scopes = 'email, user_friends, user_online_presence';
@@ -96,4 +96,4 @@ $(function() {
   			return false;
   	})
 
-})
+})*/
