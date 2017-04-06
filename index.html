@@ -9,7 +9,7 @@
 </head>
 <body>
 <script>
-/*function statusChangeCallback(response) {
+function statusChangeCallback(response) {
     console.log('statusChangeCallback');
     console.log(response);
     
@@ -73,19 +73,21 @@
     function getInfo(){
         
     }
-*/
 </script>
 <button scope="public_profile,email" onlogin="checkLoginState();">
 FACEBOOK</button>
 
 <div id="status"></div>
+
+
     
-<div id="fb-root"></div>
-<script>
+    
+<!----OTRO CODIGO---<div id="fb-root"></div>
 //Initializing setup and load facebook    
   window.fbAsyncInit = function() {
     FB.init({
-      appId      : '1902165303401235', // App ID
+      appId      : '275533936193063', // App ID
+      channelUrl : 'YOUR_WEBSITE_CHANNEL_URL',
       status     : true, // check login status
       cookie     : true, // enable cookies to allow the server to access the session
       xfbml      : true,  // parse XFBML
@@ -154,7 +156,7 @@ FACEBOOK</button>
      ref.parentNode.insertBefore(js, ref);
    }(document));
 
-</script>
+</script>-->
 <!--<script>
   function statusChangeCallback(response) {
     console.log('statusChangeCallback');

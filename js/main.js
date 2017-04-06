@@ -1,4 +1,4 @@
-/*FB.getLoginStatus(function(response) {
+FB.getLoginStatus(function(response) {
     statusChangeCallback(response);
 });
 
@@ -96,4 +96,4 @@ $(function() {
   			return false;
   	})
 
-})*/
+})
