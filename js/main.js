@@ -1,4 +1,8 @@
- (function() {
+/*FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+});
+
+$(function() {
 
 	var app_id = '112578705929050';
 	var scopes = 'email, user_friends, user_online_presence';
@@ -14,7 +18,7 @@
 	window.fbAsyncInit = function() {
 
 	  	FB.init({
-	    	appId      : app_id,
+	    	appId      : '112578705929050',
 	    	status     : true,
 	    	cookie     : true, 
 	    	xfbml      : true, 
@@ -92,4 +96,4 @@
   			return false;
   	})
 
-})
+})*/
